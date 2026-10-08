@@ -1,350 +1,387 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="en" class="is-loading">
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="img/favicon.png" type="image/png">
-    <title>Tierra Automation</title>
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="vendors/linericon/style.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-	<link rel="stylesheet" href="vendors/animate-css/animate.css">
-	<link rel="stylesheet" href="vendors/popup/magnific-popup.css">
-	<link rel="stylesheet" href="vendors/swiper/css/swiper.min.css">
-	<link rel="stylesheet" href="vendors/scroll/jquery.mCustomScrollbar.css">
-	<!-- main css -->
-	<link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tierra Automation | Embedded Systems, IoT, Web, Apps &amp; Robotics</title>
+  <meta name="description" content="Tierra Automation provides Embedded Systems, IoT, Full Stack Web Development, App Development and Robotics solutions in Visakhapatnam.">
+  <meta name="theme-color" content="#07080a">
+  <link rel="canonical" href="https://tierraautomation.in/">
+  <link rel="icon" type="image/png" sizes="32x32" href="/brand/icon-32.png">
+  <link rel="apple-touch-icon" href="/brand/icon-180.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tierra Automation">
+  <meta property="og:title" content="Tierra Automation | Embedded Systems, IoT, Web, Apps &amp; Robotics">
+  <meta property="og:description" content="Tierra Automation provides Embedded Systems, IoT, Full Stack Web Development, App Development and Robotics solutions in Visakhapatnam.">
+  <meta property="og:url" content="https://tierraautomation.in/">
+  <meta property="og:image" content="https://tierraautomation.in/brand/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap">
+  <link rel="preload" as="image" href="/brand/tierra-logo.webp">
+  <!--BUILD:CSS-->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"Tierra Automation","slogan":"Innovation • Automation • Technology","url":"https://tierraautomation.in/","logo":"https://tierraautomation.in/brand/icon-512.png","email":"info@tierraautomation.in","telephone":"+91 91000 11109","address":{"@type":"PostalAddress","streetAddress":"22-69-14, Sri Srinivasa Nilayam, Vasantha Rao Street, Kurupam Market","addressLocality":"Visakhapatnam","addressRegion":"Andhra Pradesh","addressCountry":"IN"},"sameAs":["https://www.instagram.com/tierra_automation/"]}
+  </script>
 </head>
-
 <body>
+  <a class="skip" href="#main">Skip to content</a>
 
-	<!-- ================Offcanvus Menu Area =================-->
-	<div class="side_menu">
-		<ul class="list menu_right">
-			<li>
-				<a href="index.html">Home</a>
-			</li>
-			<li>
-				<a href="about-us.html">About</a>
-			</li>
-		    <li>
-				<a href="project.html">Projects</a>
-			</li>
-			<li>
-				<a href="service.html">Service</a>
-			</li>
-			<li>
-				<a href="contact.html">Contact</a>
-			</li>
-		</ul>
-	</div>
-	<!--================End Offcanvus Menu Area =================-->
+  <!-- the film -->
+  <canvas id="stage" class="stage" aria-hidden="true"></canvas>
+  <div class="stage-fallback" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="flash" aria-hidden="true"></div>
+  <div class="tags" aria-hidden="true" data-tags></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor-trail"></span><span class="cursor-ring"></span><span class="cursor-core"></span></div>
 
-	<!--================Canvus Menu Area =================-->
-	<div class="canvus_menu">
-		<div class="container">
-			<div class="float-right">
-				<div class="toggle_icon" title="Menu Bar">
-					<span></span>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--================End Canvus Menu Area =================-->
+  <header class="nav" data-nav>
+    <a class="logo-plate" href="#home" aria-label="Tierra Automation home">
+      <img src="/brand/tierra-logo.webp" alt="Tierra Automation" width="900" height="308">
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#home" data-link="home">Home</a>
+      <a href="#about" data-link="about">About</a>
+      <a href="#domains" data-link="domains">Domains</a>
+      <a href="#projects" data-link="projects">Projects</a>
+      <a href="#rnd" data-link="rnd">R&amp;D</a>
+      <a href="#internships" data-link="internships">Internships</a>
+      <a href="#careers" data-link="careers">Careers</a>
+      <a href="#contact" data-link="contact">Contact</a>
+    </nav>
+    <a class="btn btn-line nav-cta" href="#contact" data-magnetic>Get started</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" data-menu-toggle>
+      <span class="sr-only">Menu</span><span class="bars" aria-hidden="true"></span>
+    </button>
+  </header>
 
-	<!--================ Start banner section =================-->
-	<section class="home-banner-area relative">
-		<div class="container-fluid p-0">
-			<div class="owl-carousel owl-banner">
-                
-                <div class="row  d-flex align-items-center justify-content-center">
-					<div class="col-lg-12">
-						<a href="#" class="logo">
-							<img src="img/logo.png" alt="">
-						</a>
-					</div>
+  <div class="menu" id="menu" data-menu hidden>
+    <div class="menu-trace" aria-hidden="true"></div>
+    <nav aria-label="Mobile">
+      <a href="#home" style="--i:0">Home</a>
+      <a href="#about" style="--i:1">About</a>
+      <a href="#domains" style="--i:2">Domains</a>
+      <a href="#projects" style="--i:3">Projects</a>
+      <a href="#rnd" style="--i:4">R&amp;D</a>
+      <a href="#internships" style="--i:5">Internships</a>
+      <a href="#careers" style="--i:6">Careers</a>
+      <a href="#contact" style="--i:7">Contact</a>
+    </nav>
+    <div class="menu-foot">
+      <a class="btn btn-solid" href="mailto:info@tierraautomation.in">Email us</a>
+      <div class="menu-contact">
+        <a href="mailto:info@tierraautomation.in">info@tierraautomation.in</a>
+        <a href="tel:+919100011109">+91 91000 11109</a>
+        <a href="https://www.instagram.com/tierra_automation/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+      <p>Innovation • Automation • Technology</p>
+    </div>
+  </div>
 
-					<div class="col-lg-8 header-left">
-						<div class="">
-							<img class="img-fluid w-100" src="img/banner/IAMP.png" alt="">
-						</div>
-					</div>
+  <main id="main">
+    <!-- 01 HERO -->
+    <section class="chapter pin" id="home" data-chapter="home" style="--h:170vh">
+      <div class="sticky">
+        <div class="copy copy--hero">
+          <p class="eyebrow"><span class="idx">01</span>Tierra Automation</p>
+          <h1 class="display display--xl" aria-label="Engineering intelligence into reality.">
+            <span class="mask"><span style="--i:0">Engineering</span></span>
+            <span class="mask accent"><span style="--i:1">Intelligence</span></span>
+            <span class="mask"><span style="--i:2">Into reality.</span></span>
+          </h1>
+          <p class="lede rise" style="--i:3">Embedded systems, automation, IoT and intelligent engineering solutions built from idea to working reality.</p>
+          <div class="actions rise" style="--i:4">
+            <a class="btn btn-solid" href="#about" data-magnetic>Explore Tierra</a>
+            <a class="btn btn-line" href="#projects" data-magnetic>Our work</a>
+          </div>
+        </div>
+        <a class="scroll-cue rise" style="--i:5" href="#about"><span class="mouse" aria-hidden="true"></span>Scroll to explore</a>
+      </div>
+    </section>
 
-					<div class="header-right col-lg-4">
-						<h1>
-							Industrial <br>
-							Automation <br>
-						</h1>
-						<p class="pt-20">Decrease manpower and increase productivity with Tierra's Industrial automation.</p>
-					</div>
-					<div class="col-lg-12">
-						<a href="#" class="main_btn">
-							<img src="img/next.png" alt="">
-						</a>
-					</div>
-				</div>                
-				<div class="row  d-flex align-items-center justify-content-center">
-					<div class="col-lg-12">
-						<a href="#" class="logo">
-							<img src="img/logo.png" alt="">
-						</a>
-					</div>
+    <!-- 02 EMBEDDED -->
+    <section class="chapter pin" id="about" data-chapter="about" style="--h:230vh">
+      <div class="sticky">
+        <div class="copy">
+          <p class="eyebrow"><span class="idx">02</span>Embedded systems</p>
+          <h2 class="display">
+            <span class="mask"><span style="--i:0">Embedded</span></span>
+            <span class="mask"><span style="--i:1">intelligence.</span></span>
+          </h2>
+          <p class="lede rise" style="--i:2">Tierra Automation is a technology development company in Visakhapatnam. We engineer embedded systems, IoT, software, mobile apps and robotics, from R&amp;D and prototyping to working products.</p>
+          <ul class="protocols rise" style="--i:3" aria-label="Interfaces we design for">
+            <li>GPIO</li><li>UART</li><li>SPI</li><li>I²C</li><li>ADC</li><li>PWM</li><li>CAN</li><li>RS485</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-					<div class="col-lg-8 header-left">
-						<div class="">
-							<img class="img-fluid w-100" src="img/banner/HAMP.jpg" alt="">
-						</div>
-					</div>
+    <!-- 03 PCB -->
+    <section class="chapter pin" id="pcb" data-chapter="pcb" style="--h:230vh">
+      <div class="sticky">
+        <div class="copy">
+          <p class="eyebrow"><span class="idx">03</span>Electronics / PCB</p>
+          <h2 class="display">
+            <span class="mask"><span style="--i:0">From circuit</span></span>
+            <span class="mask"><span style="--i:1">to system.</span></span>
+          </h2>
+          <p class="lede rise" style="--i:2">Schematics, multilayer layouts, power stages and interfaces, routed for clean signals and built to be manufactured.</p>
+          <ul class="chips rise" style="--i:3">
+            <li>PCB development</li><li>Electronics</li><li>Interfaces</li><li>Power</li><li>Communication</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-					<div class="header-right col-lg-4">
-						<h1>
-							Customized <br>
-							Home / Office <br>
-							Automation
-						</h1>
-						<p class="pt-20">
-							We provide a wide range of home/office automation devices which make your life more comfortable.
-						</p>
-					</div>
-					<div class="col-lg-12">
-						<a href="#" class="main_btn">
-							<img src="img/next.png" alt="">
-						</a>
-					</div>
-				</div>
-				<div class="row  d-flex align-items-center justify-content-center">
-					<div class="col-lg-12">
-						<a href="#" class="logo">
-							<img src="img/logo.png" alt="">
-						</a>
-					</div>
+    <!-- 04 SENSORS -->
+    <section class="chapter pin" id="sensors" data-chapter="sensors" style="--h:230vh">
+      <div class="sticky">
+        <div class="copy">
+          <p class="eyebrow"><span class="idx">04</span>Sensors / Data</p>
+          <h2 class="display">
+            <span class="mask"><span style="--i:0">Sensing</span></span>
+            <span class="mask"><span style="--i:1">the real world.</span></span>
+          </h2>
+          <p class="lede rise" style="--i:2">Physical signals are conditioned, digitised and streamed into the controller, where data becomes decisions.</p>
+          <ul class="sensor-row rise" style="--i:3">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4a2 2 0 0 1 4 0v9.5a4 4 0 1 1-4 0z"/><path d="M12 9v6"/></svg>Temperature</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="11" r="5"/><path d="M12 6v5l3 2M12 19v2"/></svg>Position</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h3l2-6 3 12 3-9 2 3h3"/></svg>Motion</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="7"/><path d="M12 13l4-3M12 3v3"/></svg>Pressure</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4v16h14V4"/><path d="M5 13h14M8 9h8"/></svg>Level</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12a7 7 0 0 1 7-7M8.5 12A3.5 3.5 0 0 1 12 8.5M19 12a7 7 0 0 1-7 7"/><circle cx="12" cy="12" r="1.2"/></svg>Proximity</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-					<div class="col-lg-8 header-left">
-						<div class="">
-							<img class="img-fluid w-100" src="img/banner/VAFBMP.png" alt="">
-						</div>
-					</div>
+    <!-- passage through the controller -->
+    <section class="chapter pin chapter--dive" id="dive" data-chapter="dive" style="--h:150vh" aria-hidden="true">
+      <div class="sticky"><p class="dive-caption">Through the controller, into the machine</p></div>
+    </section>
 
-					<div class="header-right col-lg-4">
-						<h1>
-							Virtual Assistant<br>
-							/Feedback Machine
-						</h1>
-						<p class="pt-20">
-							Create your custom designs and start your prototype with Tierra's 3D printing services.
-						</p>
-					</div>
-					<div class="col-lg-12">
-						<a href="#" class="main_btn">
-							<img src="img/next.png" alt="">
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End banner section ================= -->
+    <!-- 05 AUTOMATION -->
+    <section class="chapter pin" id="automation" data-chapter="automation" style="--h:270vh">
+      <div class="sticky">
+        <div class="copy">
+          <p class="eyebrow"><span class="idx">05</span>Automation</p>
+          <h2 class="display display--stack" data-steps>
+            <span class="mask"><span style="--i:0">Sense</span></span>
+            <span class="mask"><span style="--i:1">Process</span></span>
+            <span class="mask"><span style="--i:2">Decide</span></span>
+            <span class="mask"><span style="--i:3">Act</span></span>
+            <span class="mask"><span style="--i:4">Monitor</span></span>
+          </h2>
+          <p class="lede rise" style="--i:5">Closed-loop industrial automation: sensors feed the controller, logic decides, actuators move and every cycle is monitored.</p>
+          <ol class="flow rise" style="--i:6" aria-label="Control loop">
+            <li>Sensor</li><li>Controller</li><li>Decision</li><li>Actuator</li><li>Monitoring</li>
+          </ol>
+        </div>
+      </div>
+    </section>
 
-	<!--================ Start Project Area =================-->
-	<section class="section_gap project-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-6">
-				<div class="main_title">
-						<h1>
-							We at<span> Tierra</span><br>
-							Make your life easier with<br>
-							<span>Customized Products</span>
-						</h1>
-						<img src="img/next.png" alt="">
-					</div>
-					<!-- single projects -->
-						<div class="single-project">
-						<img class="img-fluid" src="img/project/HA.png" alt="">
-						<div class="project-details">
-							<h4>Home Automation</h4>
-							<a href="#" class="main_btn1">Turning houses into Smart Homes: Your Future, Automated<img src="img/cnext.png" alt="">
-							</a>
-						</div>
-					</div>
-				</div>
+    <!-- 06 ROBOTICS -->
+    <section class="chapter pin" id="robotics" data-chapter="robotics" style="--h:250vh">
+      <div class="sticky">
+        <div class="copy">
+          <p class="eyebrow"><span class="idx">06</span>Robotics</p>
+          <h2 class="display">
+            <span class="mask"><span style="--i:0">Machines</span></span>
+            <span class="mask"><span style="--i:1">that respond.</span></span>
+          </h2>
+          <p class="lede rise" style="--i:2">Precision mechanisms, motion control and robotic systems engineered for real production tasks. Scroll to run the pick-and-place cycle.</p>
+        </div>
+      </div>
+    </section>
 
-				<div class="col-lg-6 col-md-6">
-					<!-- single projects -->
-				<div class="single-project">
-						<img class="img-fluid" src="img/project/IA.png" alt="">
-						<div class="project-details">
-							<h4>Industrial Automation</h4>
-							<a href="#" class="main_btn1">Efficiency Redefined: Revolutionizing Industry through Automation.<img src="img/cnext.png" alt="">
-							</a>
-						</div>
-					</div>
-					<!-- single projects -->
-				<div class="single-project">
-						<img class="img-fluid" src="img/project/10.png" alt="">
-						<div class="project-details">
-							<h4>Customized Data Loggers</h4>
-							<a href="#" class="main_btn1">Our data loggers record your data and allow you to analyse it for future use.<img src="img/cnext.png" alt="">
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Project Area =================-->
+    <!-- 07 IOT -->
+    <section class="chapter pin" id="iot" data-chapter="iot" style="--h:240vh">
+      <div class="sticky">
+        <div class="copy">
+          <p class="eyebrow"><span class="idx">07</span>IoT / Connected systems</p>
+          <h2 class="display">
+            <span class="mask"><span style="--i:0">Connected</span></span>
+            <span class="mask"><span style="--i:1">intelligence.</span></span>
+          </h2>
+          <p class="lede rise" style="--i:2">From devices to data to meaningful insight: edge gateways, networks and dashboards that let you see every machine.</p>
+          <ol class="flow rise" style="--i:3" aria-label="Data path">
+            <li>Device</li><li>Edge</li><li>Network</li><li>Data</li><li>Dashboard</li>
+          </ol>
+        </div>
+      </div>
+    </section>
 
-	<!--================ Start Service Area =================-->
-		<section class="service-area section_gap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-5 col-md-6">
-					<div class="main_title">
-						<h1>
-							We are <span>TIERRA</span><br>
-							Top Services That <br>
-							We Offerss
-						</h1>
-						<img src="img/next.png" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-5 col-md-6">
-                    <img class="img-fluid" src="img/Service/PCBD.png" alt="">
-			        <div class="single-service">
-				        <h4>Customized PCB's</h4>
-                        <p>We craft customized pcb's for your unique needs.</p>
-					</div>
-					<!-- single service -->
-					<div class="single-service">
-                        <img class="img-fluid" src="img/Service/IEAMC.jpg" alt="">
-						<h4>Industrial Equipment AMC</h4>
-						<p>Reliability Beyond Boundaries: Your Industrial Equipment's Trusted AMC Partner.</p>
-					</div>
-				</div>
-				<div class="col-lg-5 offset-lg-1 col-md-6">
-					<!-- single service -->
-					<div class="single-service">
-                        <img class="img-fluid" src="img/Service/RE.png" alt="">
-						<h4>PCB Reverse Engineering</h4>
-						<p>Unlocking Innovation Through PCB Reverse Engineering.</p>
-					</div>
-					<!-- single service -->
-					<div class="single-service">
-                        <img class="img-fluid" src="img/Service/3D.png" alt="">
-						<h4>3D Designing</h4>
-						<p>Where Imagination Meets Reality: 3D Design Excellence.</p>
-					</div>
-                    </div>  
-				</div>
-			</div>
-	</section>
-	<!--================ End Service Area =================-->
+    <!-- 08 DOMAINS -->
+    <section class="chapter flow-chapter" id="domains" data-chapter="domains">
+      <div class="wrap expertise">
+        <div class="expertise-head">
+          <p class="eyebrow"><span class="idx">08</span>Domains</p>
+          <h2 class="display">
+            <span class="mask"><span style="--i:0">Domains</span></span>
+            <span class="mask"><span style="--i:1">we build in.</span></span>
+          </h2>
+          <p class="lede rise" style="--i:2">Five disciplines, one engineering team. From the controller on the board to the app in your hand.</p>
+        </div>
+        <ol class="index domains" data-index>
+          <li><button type="button"><span class="ix-name"><b>01</b>Embedded Systems</span><span class="ix-desc">Microcontrollers, firmware, sensors, electronics interfacing and embedded product development.</span></button></li>
+          <li><button type="button"><span class="ix-name"><b>02</b>IoT</span><span class="ix-desc">Connected devices, smart monitoring, sensor networks and intelligent connected systems.</span></button></li>
+          <li><button type="button"><span class="ix-name"><b>03</b>Full Stack Web Development</span><span class="ix-desc">Modern responsive web applications, frontend development, backend-ready architecture and production deployment.</span></button></li>
+          <li><button type="button"><span class="ix-name"><b>04</b>App Development</span><span class="ix-desc">Modern mobile application experiences designed around useful connected products and services.</span></button></li>
+          <li><button type="button"><span class="ix-name"><b>05</b>Robotics</span><span class="ix-desc">Sensors, controllers, actuators, embedded intelligence and automated robotic systems.</span></button></li>
+        </ol>
+      </div>
+    </section>
 
-	<!--================ Start Testimonial Area
-	<section class="testimonial_area">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-5">
-					<div class="main_title">
-						<h1>
-							We are <span>Loaft</span><br>
-							What Our Priority <br>
-							<span>Client’s Say</span>
-						</h1>
-						<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
-						<img src="img/next.png" alt="">
-					</div>
-					<div class="owl-carousel active_testimonial">
+    <!-- 09 PROCESS -->
+    <section class="chapter pin" id="process" data-chapter="process" style="--h:340vh">
+      <div class="sticky sticky--process">
+        <div class="process-head">
+          <p class="eyebrow"><span class="idx">09</span>Engineering process</p>
+          <h2 class="display">
+            <span class="mask"><span style="--i:0">From idea</span></span>
+            <span class="mask"><span style="--i:1">to reality.</span></span>
+          </h2>
+        </div>
+        <div class="track-wrap">
+          <ol class="track" data-track>
+            <li><span class="node"><b>1</b></span><h3>Idea</h3><p>Define the problem worth solving.</p></li>
+            <li><span class="node"><b>2</b></span><h3>Research</h3><p>Constraints, components and prior art.</p></li>
+            <li><span class="node"><b>3</b></span><h3>Design</h3><p>Architecture, schematics and mechanics.</p></li>
+            <li><span class="node"><b>4</b></span><h3>Engineer</h3><p>Detailed hardware and firmware design.</p></li>
+            <li><span class="node"><b>5</b></span><h3>Build</h3><p>Boards fabricated, hardware assembled.</p></li>
+            <li><span class="node"><b>6</b></span><h3>Program</h3><p>Firmware, control logic and software.</p></li>
+            <li><span class="node"><b>7</b></span><h3>Test</h3><p>Validated in real operating conditions.</p></li>
+            <li><span class="node"><b>8</b></span><h3>Prototype</h3><p>A working unit you can hold and trial.</p></li>
+            <li><span class="node"><b>9</b></span><h3>Deploy</h3><p>Installed, handed over and supported.</p></li>
+          </ol>
+          <div class="track-line" aria-hidden="true"><span data-track-fill></span><i data-track-pulse></i></div>
+        </div>
+      </div>
+    </section>
 
-							<div class="quote">
-								<img class="img-fluid" src="img/quote.png" alt="">
-							</div>
-							<div class="testi_content">
-								<p class="black_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-									incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-									laboris nisi ut aliquip ex ea commodo consequat.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-									dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-							</div>
-							<div class="testi_author">
-								<div class="thumb"><img src="img/testi-author.png" alt=""></div>
-								<div class="a-desc">
-									<h6>Marvel Maison</h6>
-									<p>Chief Executive, Amazon</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 offset-lg-1">
-					<div class="testi_img">
-						<img class="img-fluid" src="img/testi-img.jpg" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <!-- 10 PROJECTS -->
+    <section class="chapter pin" id="projects" data-chapter="projects" style="--h:220vh">
+      <div class="sticky">
+        <div class="copy copy--wide" data-projects></div>
+      </div>
+    </section>
 
-	 End Testimonial Area =================-->
+    <!-- 11 R&D -->
+    <section class="chapter pin" id="rnd" data-chapter="rnd" style="--h:240vh">
+      <div class="sticky">
+        <div class="copy">
+          <p class="eyebrow"><span class="idx">11</span>R&amp;D / Innovation</p>
+          <h2 class="display">
+            <span class="mask"><span style="--i:0">We build</span></span>
+            <span class="mask"><span style="--i:1">what doesn't</span></span>
+            <span class="mask"><span style="--i:2">exist yet.</span></span>
+          </h2>
+          <p class="lede rise" style="--i:3">New devices are engineered, assembled, broken and improved here until they are ready to make.</p>
+          <ol class="stages rise" style="--i:4" data-stages>
+            <li>Concept</li><li>Engineering</li><li>Prototype</li><li>Test</li><li>Product</li>
+          </ol>
+        </div>
+      </div>
+    </section>
 
-	
-	<!--================ start footer Area  =================-->
-	<footer class="footer_area section_gap">
-		<div class="container">
-			<div class="row footer_inner">
-				<div class="col-lg-5 col-sm-6">
-					<aside class="f_widget ab_widget">
-						<div class="f_title">
-							<h3>About Me</h3>
-						</div>
-						<p>Welcome to Tierra Automation - Your Partner in Robotics and IoT Excellence!</p>
-					</aside>
-				</div>
-				<div class="col-lg-2">
-					<aside class="f_widget social_widget">
-						<div class="f_title">
-							<h3>Follow Me</h3>
-						</div>
-						<p>Let us be social</p>
-						<ul class="list">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						</ul>
-					</aside>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!--================ End footer Area  =================-->
+    <!-- 12 INTERNSHIPS -->
+    <section class="chapter flow-chapter" id="internships" data-chapter="internships">
+      <div class="wrap intern">
+        <div>
+          <p class="eyebrow"><span class="idx">12</span>Internships</p>
+          <h2 class="display">
+            <span class="mask"><span style="--i:0">Don't just</span></span>
+            <span class="mask"><span style="--i:1">learn technology.</span></span>
+            <span class="mask accent"><span style="--i:2">Build it.</span></span>
+          </h2>
+          <p class="lede rise" style="--i:3">Hands-on internships for students who want to work on real hardware and software, guided by our engineers.</p>
+          <a class="btn btn-solid rise" style="--i:4" href="https://docs.google.com/forms/d/e/1FAIpQLSerMcIWCZFPoTsLRCivg7EOnUns8prhgaf-dXuSqggIfMniDQ/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" data-magnetic>Apply for internship</a>
+          <p class="fine rise" style="--i:5">Opens our application form (Google Forms) in a new tab.</p>
+        </div>
+        <ul class="topics" aria-label="Internship areas">
+          <li>Embedded Systems</li><li>IoT</li><li>Full Stack Web Development</li><li>App Development</li><li>Robotics</li>
+        </ul>
+      </div>
+    </section>
 
+    <!-- 13 CAREERS -->
+    <section class="chapter flow-chapter" id="careers" data-chapter="careers">
+      <div class="wrap careers">
+        <div>
+          <p class="eyebrow"><span class="idx">13</span>Careers</p>
+          <h2 class="display">
+            <span class="mask"><span style="--i:0">Build</span></span>
+            <span class="mask accent"><span style="--i:1">what's next.</span></span>
+          </h2>
+          <p class="lede rise" style="--i:2">Join Tierra Automation and work across technology, engineering, software, embedded systems, IoT and robotics.</p>
+        </div>
+        <div class="panel openings rise" style="--i:3" data-careers></div>
+      </div>
+    </section>
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-	<script src="vendors/isotope/isotope-min.js"></script>
-	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-	<script src="vendors/counter-up/jquery.counterup.js"></script>
-	<script src="js/mail-script.js"></script>
-	<script src="vendors/popup/jquery.magnific-popup.min.js"></script>
-	<script src="vendors/swiper/js/swiper.min.js"></script>
-	<script src="vendors/scroll/jquery.mCustomScrollbar.js"></script>
-	<script src="js/theme.js"></script>
+    <!-- 14 CONTACT -->
+    <section class="chapter flow-chapter" id="contact" data-chapter="contact">
+      <div class="wrap contact">
+        <div class="contact-copy">
+          <p class="eyebrow"><span class="idx">14</span>Contact</p>
+          <h2 class="display">
+            <span class="mask"><span style="--i:0">Have an idea?</span></span>
+            <span class="mask accent"><span style="--i:1">Let's</span></span>
+            <span class="mask accent"><span style="--i:2">engineer it.</span></span>
+          </h2>
+          <p class="lede rise" style="--i:3">Tell us what you want to build and where it has to work. We'll come back with the next steps.</p>
+          <div class="actions rise" style="--i:4">
+            <a class="btn btn-solid" href="mailto:info@tierraautomation.in" data-magnetic>Email us</a>
+            <a class="btn btn-line" href="tel:+919100011109" data-magnetic>Call us</a>
+            <a class="btn btn-line" href="https://www.instagram.com/tierra_automation/" target="_blank" rel="noopener noreferrer" data-magnetic>Instagram</a>
+          </div>
+        </div>
+        <address class="panel contact-card rise" style="--i:5">
+          <img class="badge" src="/brand/tierra-badge.webp" alt="Tierra Automation" width="640" height="640" loading="lazy">
+          <p class="cc-name">Tierra Automation</p>
+          <p class="tagline">Innovation • Automation • Technology</p>
+          <dl>
+            <div><dt>Email</dt><dd><a href="mailto:info@tierraautomation.in">info@tierraautomation.in</a></dd></div>
+            <div><dt>Phone</dt><dd><a href="tel:+919100011109">+91 91000 11109</a></dd></div>
+            <div><dt>Address</dt><dd>22-69-14, Sri Srinivasa Nilayam,<br>Vasantha Rao Street, Kurupam Market,<br>Visakhapatnam - 1,<br>Andhra Pradesh, India</dd></div>
+            <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/tierra_automation/" target="_blank" rel="noopener noreferrer">@tierra_automation</a></dd></div>
+          </dl>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="logo-plate" href="#home" aria-label="Tierra Automation home"><img src="/brand/tierra-logo.webp" alt="Tierra Automation" width="900" height="308" loading="lazy"></a>
+        <p class="cc-name">Tierra Automation</p>
+        <p class="tagline">Innovation • Automation • Technology</p>
+      </div>
+      <nav class="footer-col" aria-label="Footer">
+        <h3>Company</h3>
+        <a href="#about">About</a><a href="#domains">Domains</a><a href="#projects">Projects</a><a href="#rnd">R&amp;D</a>
+        <a href="#internships">Internships</a><a href="#careers">Careers</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-col">
+        <h3>Domains</h3>
+        <span>Embedded Systems</span><span>IoT</span><span>Full Stack Web Development</span><span>App Development</span><span>Robotics</span>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <a href="mailto:info@tierraautomation.in">info@tierraautomation.in</a>
+        <a href="tel:+919100011109">+91 91000 11109</a>
+        <span>Visakhapatnam, Andhra Pradesh</span>
+        <a href="https://www.instagram.com/tierra_automation/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+    <div class="wrap footer-base"><p>© <span data-year>2026</span> Tierra Automation. All rights reserved.</p></div>
+  </footer>
+
+  <noscript><style>.mask>span,.rise{transform:none!important;opacity:1!important}.stage-fallback{display:block!important}</style></noscript>
+  <!--BUILD:JS-->
 </body>
-
 </html>

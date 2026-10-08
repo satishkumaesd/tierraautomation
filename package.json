@@ -1,0 +1,19 @@
+{
+  "name": "tierra-automation-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Tierra Automation — official 3D website",
+  "scripts": {
+    "build": "tsc --noEmit && node build.mjs",
+    "preview": "node server.mjs",
+    "start": "node server.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "typescript": "6.0.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
